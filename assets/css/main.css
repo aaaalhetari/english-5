@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.word-active {
+  @apply cursor-pointer underline decoration-dotted decoration-emerald-500 underline-offset-4 hover:bg-emerald-50 rounded;
+}
+
+.word-pool {
+  @apply cursor-pointer underline decoration-dotted decoration-sky-400 underline-offset-4 hover:bg-sky-50 rounded;
+}
+
+.selection-marked {
+  @apply bg-amber-200 rounded px-0.5;
+}
